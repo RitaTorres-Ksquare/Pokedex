@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.container2 {
+  text-align: center;
+  align-items: center;
+}
+form {
+  width: 200px;
+  margin-left: 200px;
+}
+.search {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+}
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+.poke-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 16px;
+  width: calc(25% - 16px);
+  margin-left: 40%;
+  max-width: 200px;
+}
+
+.img-container {
+  position: relative;
+  width: 80px;
+  margin: 10px auto;
+}
+
+.poke-stats section {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.poke-types section {
+  padding: 2px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  border: 1px dashed black;
+  font-size: 12px;
+}
+
+.poke-img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.pokemon-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+  padding: 16px;
+  width: calc(25% - 16px);
+  max-width: 200px;
+}
+.pokemon-card h3 {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.pokemon-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.pokemon-card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.pokemon-card p {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.hiden {
+  display: none;
+}
+
+#reset {
+  font-size: 16px;
+  padding: 8px;
+  width: 80px;
+  max-width: 80px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}

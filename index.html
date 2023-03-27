@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">Pokedex</h1>
+      <section class="search">
+
+     
+      <form action="" onsubmit="searchPokemon(event)">
+        <input
+          type="text"
+          name="pokemon"
+          id="search"
+          placeholder="Search Pokemon..."
+          autocomplete="off"
+        />
+      </form> 
+    </section>
+      <section class="container2 " id="searchPoke" >
+        <section data-poke-card class="poke-card">
+          <section data-poke-name></section>
+          <section data-poke-img-container>
+            <img data-poke-img class="poke-img" src="https://cdn-icons-png.flaticon.com/512/6356/6356630.png" alt="" />
+          </section>
+          <section data-poke-id></section>
+          <section data-poke-types class="poke-types"></section>
+          <section data-poke-stats class="poke-stats"></section>
+        </section>
+      </section>
+      <section class="grid" id="pokeCards"></section>
+      <button id="reset" >Reset</button>
+    </section>
+    <script src="sketch.js"></script>
+  </body>
+</html>
